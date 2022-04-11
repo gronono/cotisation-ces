@@ -1,0 +1,41 @@
+#
+# IntelliJ
+#
+.idea/
+*.iml
+
+#
+# Eclipse
+#
+.settings
+.project
+.classpath
+
+#
+# Mac OS
+#
+.DS_Store
+
+#
+# Maven
+#
+.mvn/wrapper/maven-wrapper.jar
+target/
+
+#
+# NodeJS
+#
+node/
+node_modules/
+package.json
+package-lock.json
+
+#
+# Vaadin
+#
+frontend/generated/
+frontend/index.html
+tsconfig.json
+types.d.ts
+webpack.config.js
+webpack.generated.js
