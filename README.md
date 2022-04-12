@@ -4,9 +4,11 @@ Le but de l'application est de calculer les montants à payer pour la déclarati
 
 L'application permet de saisir les heures faites par la personne et calcul automatiquement le montant de la cotisation en fonction des différents taux à application et du montant horaire brut.
 
+Sources du projet sur Github : https://github.com/gronono/cotisation-ces
+
 ## Étape 0
 
-* Cloner le projet
+* Cloner le projet : `git clone git@github.com:gronono/cotisation-ces.git`
 * L'importer dans IntelliJ
 * Lancer une compilation maven : `./mvnw clean package`
 * Lancer le programme CotisationCesApplication : `./mvnw spring-boot:run`
