@@ -1,8 +1,11 @@
 # Calcul des cotisations Chèque Emploi Service (CES)
 
-Le but de l'application est de calculer les montants à payer pour la déclaration "Chèque Emploi Service (CES)" des gens maisons.
+Le but de l'application est de calculer les montants à payer pour la
+déclaration "Chèque Emploi Service (CES)" des gens maisons.
 
-L'application permet de saisir les heures faites par la personne et calcul automatiquement le montant de la cotisation en fonction des différents taux à application et du montant horaire brut.
+L'application permet de saisir les heures faites par la personne et 
+calcul automatiquement le montant de la cotisation en fonction des différents taux à application 
+et du montant horaire brut.
 
 Sources du projet sur Github : https://github.com/gronono/cotisation-ces
 
@@ -27,7 +30,7 @@ Implémenter l'algorithme de calcul du montant de la cotisation:
 
 où 
 - le salaire horaire brut et nb d'heures sont saisis par l'utilisateur
-- taux CSS est 7,7725 %
+- taux CCS est 7,7725 %
 
 En sortie, on veut à la fois le salaire net payé et le salaire horaire net.
 
@@ -38,9 +41,9 @@ Si le salaire horaire est salaire horaire = 915,42 F/H pour 8 heures travaillés
 * salaire brut = 915,42 F/H x 8 H = 7 323,4 F
 * congés payés = 10 % x 7 323,4 F = 732 F
 * salaire brut total = 7 323,4 F + 732 F = 8 055 F
-• retenue CSS =7,7725% x 8 055 F = 626 F
-• salaire net payé = 8 055 F - 626 F = 7.429 F
-• salaire horaire net : 7 429 F / 8 h = 928,62 F
+* retenue CCS =7,7725% x 8 055 F = 626 F
+* salaire net payé = 8 055 F - 626 F = 7.429 F
+* salaire horaire net : 7 429 F / 8 h = 928,62 F
 
 ## Étape 2
 
