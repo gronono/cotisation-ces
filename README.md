@@ -42,7 +42,7 @@ Si le salaire horaire est salaire horaire = 915,42 F/H pour 8 heures travaillés
 * congés payés = 10 % x 7 323,4 F = 732 F
 * salaire brut total = 7 323,4 F + 732 F = 8 055 F
 * retenue CCS =7,7725% x 8 055 F = 626 F
-* salaire net payé = 8 055 F - 626 F = 7.429 F
+* salaire net payé = 8 055 F - 626 F = 7 429 F
 * salaire horaire net : 7 429 F / 8 h = 928,62 F
 
 ## Étape 2
