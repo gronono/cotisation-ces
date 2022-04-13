@@ -51,16 +51,22 @@ Si le salaire horaire est salaire horaire = 915,42 F/H pour 8 heures travaillés
 
 ## Étape 3
 
+Mettre en place un base de données pour persister les données. Le projet contient déjà le nécessaire pour utiliser une base de données de type H2.
+
+On stockera les deux taux (celui des congés payés et celui de la retenu CCS) à appliquer dans la base.
+
+Modifier le code pour lire les taux à partir de la base.
+
+Dans les étapes suivants, les données saisies par l'utilisateur doivent être persistées.
+
+## Étape 4
+
 On veut pouvoir gérer l'historique d'un employé de maison.
 
 Modifier l'application pour 
 - pouvoir déclarer un employé (nom, prénom, numéro CAFAT, salaire horaire brut),
 - pouvoir saisir pour un mois donnée, le nombre d'heures effectuées par l'employé
 - afficher l'historique d'un employé par mois (avec le salaire net payé et le salaire horaire net)
-
-## Étape 4
-
-Mettre en place un base de données pour persister les données (avec H2Database en mode fichier).
 
 ## Étape 5
 
