@@ -59,6 +59,13 @@ Modifier le code pour lire les taux à partir de la base.
 
 Dans les étapes suivants, les données saisies par l'utilisateur doivent être persistées.
 
+Le driver de la base de données H2Database est déjà présent dans le classpath.
+Vous pouvez l'utiliser pour créer une base de données mémoire :
+```java
+Connection conn = DriverManager.getConnection("jdbc:h2:mem:mydb", "sa", "");
+```
+Vous pouvez aussi accéder à la console H2 sur l'adresse `http://localhost:8080/h2-console`.
+
 ## Étape 4
 
 On veut pouvoir gérer l'historique d'un employé de maison.
