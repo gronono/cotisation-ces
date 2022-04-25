@@ -18,7 +18,7 @@ public class CalculCotisationService {
         return new CalculCotisationResultat(salaireNetPaye, salaireHoraireNet);
     }
 
-    private void checkArguments(Montant salaireHoraireBrut, int nbHeures) {
+    private void checkArguments(Montant salaireHoraireBrut, double nbHeures) {
         if (salaireHoraireBrut.isNegatif()) {
             throw new IllegalArgumentException("Le salaire horaire brut doit être positif. Obtenu: " + salaireHoraireBrut);
         }
