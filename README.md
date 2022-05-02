@@ -53,7 +53,7 @@ Si le salaire horaire est salaire horaire = 915,42 F/H pour 8 heures travaillés
 
 Mettre en place un base de données pour persister les données. Le projet contient déjà le nécessaire pour utiliser une base de données de type H2.
 
-On stockera les deux taux (celui des congés payés et celui de la retenu CCS) à appliquer dans la base.
+On stockera les deux taux (celui des congés payés et celui de la retenu CES) à appliquer dans la base.
 
 Modifier le code pour lire les taux à partir de la base.
 
